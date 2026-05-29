@@ -1,0 +1,89 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile.tmp
+
+# Object and dependency files
+*.o
+*.obj
+*.lo
+*.la
+*.d
+*.su
+*.gcno
+*.gcda
+*.gcov
+
+# Static/shared libraries and generated module outputs
+lib/librtsp_push.a
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Executables and debug symbols
+bin/
+*.out
+*.exe
+*.elf
+*.bin
+*.map
+*.sym
+*.debug
+
+# Archives and packages
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
+# Logs and runtime dumps
+*.log
+core
+core.*
+vgcore.*
+perf.data
+perf.data.old
+
+# Generated media/debug dumps
+*.h264
+*.264
+*.265
+*.yuv
+*.nv12
+*.rgb
+*.rgba
+*.pcm
+*.wav
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ctags/cscope
+tags
+TAGS
+cscope.*
+GPATH
+GRTAGS
+GTAGS
+
+# Python helper cache
+__pycache__/
+*.pyc
+
+# Local environment files
+.env
+.env.*
+*.local
